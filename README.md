@@ -20,3 +20,4 @@ npm run preview
 
 Replace placeholder images in `src/data/content.js` with your actual salon images from madonnasalon.in.
 # madonna-renovated-demo
+# madonna-renovated-demo
