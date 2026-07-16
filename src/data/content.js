@@ -1,6 +1,6 @@
-const BASE = 'https://madonnasalon.in/wp-content/uploads'
+const BASE = '/images'
 
-export const logo = `${BASE}/2022/10/Untitled-1-4.png`
+export const logo = `${BASE}/logo.svg`
 
 export const navigation = [
   { label: 'HOME', href: '/' },
@@ -22,19 +22,19 @@ export const navigation = [
 
 export const heroSlides = [
   {
-    image: `${BASE}/2022/09/long-hair-hair-coloring-hairstyle-hair-permanents-straighteners-hair-c04a872def9584e68d6df82f4cd9d1b4.png`,
+    image: `${BASE}/hero/slide-1.jpg`,
     watermark: 'MADONNA',
     title: 'Where Beauty Becomes an Art',
     subtitle: 'Step into Delhi NCR\u2019s finest salon studio for transformative hair, skin & makeup experiences.',
   },
   {
-    image: `${BASE}/2022/10/pngwing.com_.png`,
+    image: `${BASE}/hero/slide-2.jpg`,
     watermark: 'MADONNA',
     title: 'Crafted for the Discerning',
     subtitle: 'Expert stylists, premium brands, and a studio designed for your finest moments.',
   },
   {
-    image: `${BASE}/2022/10/3937949.jpg`,
+    image: `${BASE}/hero/slide-3.jpg`,
     watermark: 'MADONNA',
     title: 'Luxury, Redefined Daily',
     subtitle: 'From bridal glam to everyday elegance \u2014 every visit is a signature experience.',
@@ -45,17 +45,17 @@ export const serviceCategories = [
   {
     title: 'Makeup',
     subtitle: 'Bridal & Party',
-    image: `${BASE}/2022/10/3-e1665136221442.png`,
+    image: `${BASE}/services/makeup.png`,
   },
   {
     title: 'Hairstyling',
     subtitle: 'Colors & Haircuts',
-    image: `${BASE}/2022/10/4-e1665136189725.png`,
+    image: `${BASE}/services/hairstyling.png`,
   },
   {
     title: 'Others',
     subtitle: 'Mani, Pedicure & Body Work',
-    image: `${BASE}/2022/10/5-e1665136261420.png`,
+    image: `${BASE}/services/others.png`,
   },
 ]
 
@@ -63,25 +63,25 @@ export const genderServices = [
   {
     title: "Men's",
     subtitle: 'Grooming & Colour',
-    image: `${BASE}/2022/10/pngwing.com_.png`,
+    image: `${BASE}/services/mens.png`,
     align: 'right',
   },
   {
     title: "Women's",
     subtitle: 'Hairstyling & Coloring',
-    image: `${BASE}/2022/09/long-hair-hair-coloring-hairstyle-hair-permanents-straighteners-hair-c04a872def9584e68d6df82f4cd9d1b4.png`,
+    image: `${BASE}/services/womens.png`,
     align: 'left',
   },
 ]
 
 export const aboutImages = [
-  `${BASE}/2026/07/unnamed-3.jpg`,
-  `${BASE}/2026/07/unnamed-4.jpg`,
+  `${BASE}/about/interior-1.jpg`,
+  `${BASE}/about/interior-2.jpg`,
 ]
 
 export const aboutExtendedImages = [
-  `${BASE}/2022/10/6.png`,
-  `${BASE}/2022/10/Untitled-2.png`,
+  `${BASE}/about/stylist-1.png`,
+  `${BASE}/about/stylist-2.png`,
 ]
 
 export const testimonials = [
@@ -123,12 +123,12 @@ export const testimonials = [
 ]
 
 export const brandPartners = [
-  { name: "L'Oréal Professionnel", logo: `${BASE}/2022/10/Untitled-1.png` },
-  { name: 'Casmara', logo: `${BASE}/2022/10/Untitled-2-1.png` },
-  { name: 'O3+', logo: `${BASE}/2022/10/Untitled-3.png` },
-  { name: 'Rica', logo: `${BASE}/2022/10/Untitled-4.png` },
-  { name: 'GK Hair', logo: `${BASE}/2022/10/Untitled-5.png` },
-  { name: 'Ozone', logo: `${BASE}/2022/10/Untitled-6.png` },
+  { name: "L'Oréal Professionnel", logo: `${BASE}/brands/loreal.png` },
+  { name: 'Casmara', logo: `${BASE}/brands/casmara.png` },
+  { name: 'O3+', logo: `${BASE}/brands/o3plus.png` },
+  { name: 'Rica', logo: `${BASE}/brands/rica.png` },
+  { name: 'GK Hair', logo: `${BASE}/brands/gkhair.png` },
+  { name: 'Ozone', logo: `${BASE}/brands/ozone.png` },
 ]
 
 export const locations = [
@@ -153,26 +153,26 @@ export const contactInfo = {
 }
 
 export const galleryImages = [
-  `${BASE}/2024/09/DSC9305-1198x800.jpg`,
-  `${BASE}/2024/09/DSC9306-1198x800.jpg`,
-  `${BASE}/2024/09/DSC9313-534x800.jpg`,
-  `${BASE}/2024/09/DSC9320-1198x800.jpg`,
-  `${BASE}/2024/09/DSC9335-1198x800.jpg`,
-  `${BASE}/2024/09/DSC9332-1198x800.jpg`,
+  `${BASE}/gallery/gallery-1.jpg`,
+  `${BASE}/gallery/gallery-2.jpg`,
+  `${BASE}/gallery/gallery-3.jpg`,
+  `${BASE}/gallery/gallery-4.jpg`,
+  `${BASE}/gallery/gallery-5.jpg`,
+  `${BASE}/gallery/gallery-6.jpg`,
 ]
 
-export const promoBackground = `${BASE}/2021/09/sport-promo-popup.jpg`
+export const promoBackground = `${BASE}/promo/promo-bg.jpg`
 
 export const recentPosts = [
   {
     title: 'Transform Your Look with Global Color Change at Madonna Salon',
     date: 'Sept 10, 2024',
-    image: `${BASE}/elementor/thumbs/madonnasalon-qtwn6ig6zu3794ukft9vcofn8ec22zsrsi1p2fdw60.jpg`,
+    image: `${BASE}/posts/post-1.jpg`,
   },
   {
     title: 'The Pros and Cons of Airbrush Makeup!',
     date: 'Oct 16, 2022',
-    image: `${BASE}/elementor/thumbs/Airbrush-Makeup-1-800x340-1-pwax1srhs5mnsio3t3lxi8jdk27kiargbn6wxd2908.jpg`,
+    image: `${BASE}/posts/post-2.jpg`,
   },
 ]
 
